@@ -1,0 +1,64 @@
+.text-boopster {
+    color: #ffe00b !important; 
+}
+
+.btn-platzi {
+    background-color: #97c93e !important;
+    color: white !important;
+}
+
+.btn-platzi:hover {
+    background-color: #82ad36 !important;
+}
+#header {
+    background-color: #18192d;
+}
+#header img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+#main .carousel-inner img {
+    max-height: 95vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+} 
+
+#place-time {
+    background-color: #12111f;
+    color: white;
+}
+#place-time img {
+    max-width: 80%;
+}
+#footer {
+    background: #03091e;
+}
+#footer a {
+    color: aliceblue;
+    text-decoration: none;
+}
+#contact-info {
+    background-color: white;
+    color: #03091e;
+}
